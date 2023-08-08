@@ -47,6 +47,10 @@ copy [extra](https://github.com/TalkUHulk/ai.deploy.box/tree/main/extra) in aidb
 ```
 aidb_python_demo/
 ├── main.py
+├── api
+    ├── __init__.py
+    ├── aidb.py
+    └── types.py  
 ├── config
     ├── mnn_config.yaml
     ├── ncnn_config.yaml
