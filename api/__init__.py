@@ -3,7 +3,7 @@ from ctypes import *
 
 app = FastAPI()
 
-libAiDB = cdll.LoadLibrary("/Users/hulk/Documents/DX_Work/CodeZoo/AIDeployBox/build/source/libAiDB_C.dylib")
+libAiDB = cdll.LoadLibrary("./libs/libAiDB_C.dylib")
 
 AiDBCreate = libAiDB.AiDBCreate
 AiDBCreate.restype = c_void_p
