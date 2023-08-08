@@ -45,7 +45,7 @@ copy [extra](https://github.com/TalkUHulk/ai.deploy.box/tree/main/extra) in aidb
 
 **folder structure**
 ```
-aidb_lua_demo/
+aidb_python_demo/
 ├── main.py
 ├── config
     ├── mnn_config.yaml
